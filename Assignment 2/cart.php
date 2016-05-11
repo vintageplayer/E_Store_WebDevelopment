@@ -20,10 +20,10 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right">
 			<li>
-				<a href="cart.html"><span class=" glyphicon glyphicon-shopping-cart"></span> Cart</a>
+				<a href="cart.php"><span class=" glyphicon glyphicon-shopping-cart"></span> Cart</a>
 			</li>
 			<li>
-				<a href="settings.html"><span class="glyphicon glyphicon-user"></span> Settings</a>
+				<a href="settings.php"><span class="glyphicon glyphicon-user"></span> Settings</a>
 			</li>
 			<li>
 				<a href=""><span class="glyphicon glyphicon-log-in"></span> Logout</a>
@@ -40,19 +40,14 @@
 		<div class="row">
 			<div class="col-lg-4"></div>
 			<div class="col-lg-4">
-				<span style="text-align: left;"><h3>Change Password</h3></span>
-				<form action="">
-					<div class="form-group">
-						<input class="form-control" placeholder="Old Password" type="password" name="oldpwd"></input>
-					</div>
-					<div class="form-group">
-						<input class="form-control" placeholder="New Password" name="newpwd" type="password"></input>
-					</div>
-					<div class="form-group">
-						<input class="form-control" placeholder="Re-type New Password" type="password" name="confirmpwd"></input>
-					</div>
-					<button class="btn btn-primary" type="submit" style="float: left;">Change</button>
-				</form>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Item Number</th>
+							<th>Price</th>
+						</tr>
+					</thead>
+				</table>
 			</div>
 		</div>
 	</div>
